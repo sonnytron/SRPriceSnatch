@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02A909D14D13B7A47221053C /* libPods-SRPriceSnatch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21E8E162A6D253DA1DCDAF7E /* libPods-SRPriceSnatch.a */; };
 		293624871CB4BE3D00CCD577 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 293624861CB4BE3D00CCD577 /* main.m */; };
 		2936248A1CB4BE3D00CCD577 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 293624891CB4BE3D00CCD577 /* AppDelegate.m */; };
 		2936248D1CB4BE3D00CCD577 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2936248C1CB4BE3D00CCD577 /* ViewController.m */; };
 		293624901CB4BE3D00CCD577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2936248E1CB4BE3D00CCD577 /* Main.storyboard */; };
 		293624921CB4BE3D00CCD577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 293624911CB4BE3D00CCD577 /* Assets.xcassets */; };
 		293624951CB4BE3D00CCD577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293624931CB4BE3D00CCD577 /* LaunchScreen.storyboard */; };
+		2936249F1CB4BF3700CCD577 /* SRRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2936249E1CB4BF3700CCD577 /* SRRequestManager.m */; };
+		293624A21CB4C02500CCD577 /* SRResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 293624A11CB4C02500CCD577 /* SRResponse.m */; };
+		293624A51CB4C27800CCD577 /* SRMainListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 293624A41CB4C27800CCD577 /* SRMainListViewController.m */; };
+		293624A81CB4C2A200CCD577 /* SRMainListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 293624A71CB4C2A200CCD577 /* SRMainListView.m */; };
+		293624AD1CB4C8B500CCD577 /* SRItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 293624AC1CB4C8B500CCD577 /* SRItemView.m */; };
+		293624B01CB4C8C900CCD577 /* SRItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 293624AF1CB4C8C900CCD577 /* SRItemViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21E8E162A6D253DA1DCDAF7E /* libPods-SRPriceSnatch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SRPriceSnatch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		293624821CB4BE3D00CCD577 /* SRPriceSnatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SRPriceSnatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		293624861CB4BE3D00CCD577 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		293624881CB4BE3D00CCD577 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +34,20 @@
 		293624911CB4BE3D00CCD577 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		293624941CB4BE3D00CCD577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		293624961CB4BE3D00CCD577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2936249D1CB4BF3700CCD577 /* SRRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRRequestManager.h; sourceTree = "<group>"; };
+		2936249E1CB4BF3700CCD577 /* SRRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRRequestManager.m; sourceTree = "<group>"; };
+		293624A01CB4C02500CCD577 /* SRResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRResponse.h; sourceTree = "<group>"; };
+		293624A11CB4C02500CCD577 /* SRResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRResponse.m; sourceTree = "<group>"; };
+		293624A31CB4C27800CCD577 /* SRMainListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRMainListViewController.h; sourceTree = "<group>"; };
+		293624A41CB4C27800CCD577 /* SRMainListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRMainListViewController.m; sourceTree = "<group>"; };
+		293624A61CB4C2A200CCD577 /* SRMainListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRMainListView.h; sourceTree = "<group>"; };
+		293624A71CB4C2A200CCD577 /* SRMainListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRMainListView.m; sourceTree = "<group>"; };
+		293624AB1CB4C8B500CCD577 /* SRItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRItemView.h; sourceTree = "<group>"; };
+		293624AC1CB4C8B500CCD577 /* SRItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRItemView.m; sourceTree = "<group>"; };
+		293624AE1CB4C8C900CCD577 /* SRItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRItemViewController.h; sourceTree = "<group>"; };
+		293624AF1CB4C8C900CCD577 /* SRItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRItemViewController.m; sourceTree = "<group>"; };
+		E17205F9002A74D9C0B5CC99 /* Pods-SRPriceSnatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRPriceSnatch.release.xcconfig"; path = "Pods/Target Support Files/Pods-SRPriceSnatch/Pods-SRPriceSnatch.release.xcconfig"; sourceTree = "<group>"; };
+		F181C7994BCE3D5F49F62281 /* Pods-SRPriceSnatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRPriceSnatch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SRPriceSnatch/Pods-SRPriceSnatch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02A909D14D13B7A47221053C /* libPods-SRPriceSnatch.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +67,8 @@
 			children = (
 				293624841CB4BE3D00CCD577 /* SRPriceSnatch */,
 				293624831CB4BE3D00CCD577 /* Products */,
+				C8850A3B52BA05CCCA69CEB4 /* Pods */,
+				F964E0CD029780F9CABF55F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +83,17 @@
 		293624841CB4BE3D00CCD577 /* SRPriceSnatch */ = {
 			isa = PBXGroup;
 			children = (
+				293624AA1CB4C8A200CCD577 /* SRItemView */,
+				293624A91CB4C32800CCD577 /* SRItemList */,
+				2936249C1CB4BF0C00CCD577 /* SRServer */,
 				293624881CB4BE3D00CCD577 /* AppDelegate.h */,
 				293624891CB4BE3D00CCD577 /* AppDelegate.m */,
 				2936248B1CB4BE3D00CCD577 /* ViewController.h */,
 				2936248C1CB4BE3D00CCD577 /* ViewController.m */,
+				293624A31CB4C27800CCD577 /* SRMainListViewController.h */,
+				293624A41CB4C27800CCD577 /* SRMainListViewController.m */,
+				293624A61CB4C2A200CCD577 /* SRMainListView.h */,
+				293624A71CB4C2A200CCD577 /* SRMainListView.m */,
 				2936248E1CB4BE3D00CCD577 /* Main.storyboard */,
 				293624911CB4BE3D00CCD577 /* Assets.xcassets */,
 				293624931CB4BE3D00CCD577 /* LaunchScreen.storyboard */,
@@ -79,6 +111,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2936249C1CB4BF0C00CCD577 /* SRServer */ = {
+			isa = PBXGroup;
+			children = (
+				2936249D1CB4BF3700CCD577 /* SRRequestManager.h */,
+				2936249E1CB4BF3700CCD577 /* SRRequestManager.m */,
+				293624A01CB4C02500CCD577 /* SRResponse.h */,
+				293624A11CB4C02500CCD577 /* SRResponse.m */,
+			);
+			name = SRServer;
+			sourceTree = "<group>";
+		};
+		293624A91CB4C32800CCD577 /* SRItemList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SRItemList;
+			sourceTree = "<group>";
+		};
+		293624AA1CB4C8A200CCD577 /* SRItemView */ = {
+			isa = PBXGroup;
+			children = (
+				293624AB1CB4C8B500CCD577 /* SRItemView.h */,
+				293624AC1CB4C8B500CCD577 /* SRItemView.m */,
+				293624AE1CB4C8C900CCD577 /* SRItemViewController.h */,
+				293624AF1CB4C8C900CCD577 /* SRItemViewController.m */,
+			);
+			name = SRItemView;
+			sourceTree = "<group>";
+		};
+		C8850A3B52BA05CCCA69CEB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F181C7994BCE3D5F49F62281 /* Pods-SRPriceSnatch.debug.xcconfig */,
+				E17205F9002A74D9C0B5CC99 /* Pods-SRPriceSnatch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F964E0CD029780F9CABF55F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21E8E162A6D253DA1DCDAF7E /* libPods-SRPriceSnatch.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 293624991CB4BE3D00CCD577 /* Build configuration list for PBXNativeTarget "SRPriceSnatch" */;
 			buildPhases = (
+				52B45EDCBB7D508F472F2F36 /* Check Pods Manifest.lock */,
 				2936247E1CB4BE3D00CCD577 /* Sources */,
 				2936247F1CB4BE3D00CCD577 /* Frameworks */,
 				293624801CB4BE3D00CCD577 /* Resources */,
+				B51EABC4FE1959986DEC2F4A /* Embed Pods Frameworks */,
+				AF88446AB98F21961B7E7F76 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,13 +225,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		52B45EDCBB7D508F472F2F36 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AF88446AB98F21961B7E7F76 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SRPriceSnatch/Pods-SRPriceSnatch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B51EABC4FE1959986DEC2F4A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SRPriceSnatch/Pods-SRPriceSnatch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2936247E1CB4BE3D00CCD577 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				293624B01CB4C8C900CCD577 /* SRItemViewController.m in Sources */,
 				2936248D1CB4BE3D00CCD577 /* ViewController.m in Sources */,
 				2936248A1CB4BE3D00CCD577 /* AppDelegate.m in Sources */,
+				293624A51CB4C27800CCD577 /* SRMainListViewController.m in Sources */,
+				293624A81CB4C2A200CCD577 /* SRMainListView.m in Sources */,
+				293624A21CB4C02500CCD577 /* SRResponse.m in Sources */,
+				2936249F1CB4BF3700CCD577 /* SRRequestManager.m in Sources */,
+				293624AD1CB4C8B500CCD577 /* SRItemView.m in Sources */,
 				293624871CB4BE3D00CCD577 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,9 +396,11 @@
 		};
 		2936249A1CB4BE3D00CCD577 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F181C7994BCE3D5F49F62281 /* Pods-SRPriceSnatch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SRPriceSnatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sonnyApps.SRPriceSnatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,9 +409,11 @@
 		};
 		2936249B1CB4BE3D00CCD577 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E17205F9002A74D9C0B5CC99 /* Pods-SRPriceSnatch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SRPriceSnatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sonnyApps.SRPriceSnatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +439,7 @@
 				2936249B1CB4BE3D00CCD577 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
